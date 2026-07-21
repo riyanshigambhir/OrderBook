@@ -12,6 +12,7 @@ public:
 
     const LevelInfos& GetBids() const { return bids_; }
     const LevelInfos& GetAsks() const { return asks_; }
+    //names class preferred over pair so its self documenting and easier to read in code
 
 private:
     LevelInfos bids_;
